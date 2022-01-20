@@ -1,0 +1,38 @@
+import React, { Component } from 'react'
+
+
+
+export class Login extends Component {
+    render() {
+        return (
+            
+            <div className="container"  style={{ marginTop:"50px",height:"460px", width:'700px',textAlign:'center'}}>
+               
+               
+               <div className="signimgage" > <img  src="assets/Home design product/signup.jpg" style={{height:"100%",width:"100%"}} alt="img" /></div>
+                <form  className="form-inline" >
+                    <h3 style={{margin:'30px'}}>Login</h3>
+                   
+                    <div className=" form-group col-6"  >
+
+                        <input type="email" placeholder="Enter your Email" className="form-control" name="" required />
+                    </div> <br />
+
+                    <div className="  form-group col-6">
+
+                        <input type="password" placeholder="Enter your password" className="form-control" name="" required />
+                    </div><br />
+                    <br/>
+                    <div className="col-12">
+                        <button type="submit" className="btn btn-primary">Login </button>
+                    </div>
+                </form>
+            </div>
+
+            
+
+        )
+    }
+}
+
+export default Login
