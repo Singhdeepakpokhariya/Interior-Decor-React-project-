@@ -4,8 +4,6 @@ export class About extends Component {
     render() {
         return (
             <div className="container-fluid aboutbody" >
-                <div className="row">
-                <div className="col-12 mx-auto">
                 <div className="headdiv">
                     <p id="bbig" >Welcome to Luxury  <br /> Apartments Delft</p>
                     <p>Started in 2014 Luxury Apartments Delft had 1 vision which never changed. Our vision is providing the guest with an experience. Not just a simple night away. Everything we do is to create the WOW feeling. To think outside the box and make you feel very special.</p>
@@ -14,9 +12,6 @@ export class About extends Component {
                 <div className="headdiv2" >
                     <img className="headdivimg" src="assets/Furniture/f1.jpg" alt="img" />
                 </div>
-                </div>
-                </div>
-
                 <div className="aboutusdiv1" ><p>About Us</p></div>
                 <div className="aboutusdiv2" >
                     <p>To create this experience we beautifully design our apartments, provide them with  all the  luxuryequipment and locate them in the city centre of Delft.
@@ -44,40 +39,22 @@ export class About extends Component {
 
                         <p>Fully equipped kitchen to cook your favourite meals.</p></div>
                 </div>
-
-                <div className='row' >
-                <div className="col-12 mx-auto">
                 <div className="bathroomcontent" >
                     <p>Delft is the city of the breath-taking monuments, history, hospitality and is trendy. In other words it is the living room of the Netherlands. In 1258 our city got its first rights. Starting from that moment the city started to develop and never stopped.</p>
                 </div>
                 <div className="bathroomimg" >
                     <img className="bathtabimg" src="assets/Home design product/bath.jpg" alt="img" />
-                </div>
-                </div>
-                </div>
-
-                <div className="row">
-                <div className="col-12 mx-auto">
+                </div> 
                 <div className="todoimgdiv"  > <img className="todoimg" src="assets/decor/A1.jpg" alt="img" /></div>
                 <div className="todotextdiv">
                     <p className="todoheading">To do’s in Delft</p>
                     <p>Have a beautiful tour through the old city to learn everything about Delft. For information about tours and guides please send an email.</p>
                     <p>Located between Rotterdam and The Hague with a train connection of less than 15 minutes. We have direct connections to Amsterdam, Schiphol and even Rotterdam The Hague airport.</p>
                 </div>
-                </div>
-                </div>
-
-                <div className="row">
-                <div className="col-12 mx-auto">
                 <div className="touch" ><p>Get in touch <br /> today</p></div>
                 <div className="touchtext" ><p>With over 15 years’ experience of managing luxury serviced accommodation in Cheltenham and <br />
                     Gloucester, we consistently place our clients’ needs at the heart of our business.</p>
                     <p id="Learnmore" >Read More</p></div>
-                 </div>
-                 </div>  
-
-                <div className="row">
-                <div className="col-12 mx-auto"> 
                 <div className="contacttextdiv" >
                     <p id="contact" >Contact Us</p>
                     <p>Apostolia Nasiopoulou <br />
@@ -88,10 +65,6 @@ export class About extends Component {
                         info@deflt.com</p>
                 </div>
                 <div className="contactimgdiv" > <img src="assets/Wardrobe/A2.jpg" alt="img" /> <img src="assets/Wardrobe/A3.jpg" alt="img" /></div>
-                </div>
-                </div>
-
-
             </div>
         )
     }
