@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Help extends Component {
     render() {
         return (
-            <div >
+            <div id='help' >
                 <div className="container-fluid">
                     <div className="container-fluid helpheaddiv">
                         <div className=" col-md-3 col-xs-12 titleleft" ><p>Nordic Style</p></div>

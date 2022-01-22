@@ -30,7 +30,7 @@ export class Home extends Component {
                     <div className=" col-md-4 col-xs-12  Home3imgdiv1">
                         <img className=" " style={{ height: "100%", width: "100%" }} src="assets/decor/Home3.jpg" alt="img"/>
                     </div>
-                    <div className="col-md-3 col-xs-12 Home3text1" ><p>Products may change with the seasons or requirements of the market but we'll always aim to take the challenges and complexities of replenishment and large-scale furnishing out of our clients' hands.</p></div>
+                    <div className="col-md-3 col-xs-12 Home3text1" ><p></p></div>
                     <div className=" col-md-3 col-xs-12  Home3imgdiv2">
                         <img className=" " style={{ height: "100%", width: "100%" }} src="assets/decor/Home4.jpg" alt="img"/>
                     </div>
